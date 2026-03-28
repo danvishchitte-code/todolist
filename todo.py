@@ -1,3 +1,7 @@
+
+
+
+print("project done by Mr. Danvish Anand\n")
 print("i am doing todo list\n")
 todo_list = []
 def add_task(task):
@@ -37,3 +41,8 @@ while True:
     else:
         print("invalid choice, please try again")
 
+
+for i in range(5):
+    for j in range(i+1):
+        print("*", end="")
+    print("hello world")
